@@ -1,28 +1,3 @@
-#你的GitHub username 
-owner: PJ test
-
-#你的GitHub repo name 
-repo: upptime
-
-#加入要监控的网站名称与URL ,可以添加多个网站
-sites: 
-  - name: ldd.cc
-    url: https://ldd.cc
-
-#没有域名的按照以下模版填写
-status-website: 
-    #cname: demo.upptime.js.org (移除) 
-    baseUrl: /upptime
-
-#有域名的按照以下模版填写
-status-website: 
-    cname: https://ldd.cc
-    
-#自定义状态页面的navbar名称与链接
-navbar: 
-    - title: test
-      href: https://ldd.cc
-
 
 i18n:
   activeIncidents: 活动事件
