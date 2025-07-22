@@ -1,36 +1,24 @@
-# Change these first
-owner: PJ upptime test # Your GitHub organization or username, where this repository lives
-repo: PJ upptime test # The name of this repository
+#你的GitHub username 
+owner: PJ test
 
-sites:
+#你的GitHub repo name 
+repo: upptime
+
+#加入要监控的网站名称与URL ,可以添加多个网站
+sites: 
   - name: ldd.cc
     url: https://ldd.cc
-  - name: PeiJin.cn
-    url: https://peijin.cn
-  - name: WuSuoShiShi
-    url: https://wusuoshishi.com
-  - name: meng.bi
-    url: https://meng.bi
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+#没有域名的按照以下模版填写
+status-website: 
+    #cname: demo.upptime.js.org (移除) 
+    baseUrl: /upptime
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+#有域名的按照以下模版填写
+status-website: 
+    cname: https://ldd.cc
+    
+#自定义状态页面的navbar名称与链接
+navbar: 
+    - title: test
+      href: https://ldd.cc
